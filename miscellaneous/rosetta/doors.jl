@@ -5,7 +5,7 @@ doors = 100
 
 #while i <100
 for i in 0:1:100
-if i = doors
+if i == doors
 println(doors)
 else
 doors = doors - 1
