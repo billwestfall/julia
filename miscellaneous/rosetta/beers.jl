@@ -1,6 +1,6 @@
 i = 1; beers = 99
 
 while i <99
-           beers
+           print beers
            i = i + 1
        end
