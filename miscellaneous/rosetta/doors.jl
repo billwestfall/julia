@@ -7,4 +7,5 @@ while i <100
            println(doors)
            else
            i = i + 1 && doors = doors - 1
+           end
 end
