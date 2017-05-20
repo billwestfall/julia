@@ -6,6 +6,5 @@ while i <100
            if i = doors
            println(doors)
            else
-           i = i + 1
-           doors = doors - 1
+           i = i + 1 && doors = doors - 1
 end
