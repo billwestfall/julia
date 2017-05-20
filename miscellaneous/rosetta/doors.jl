@@ -9,7 +9,6 @@ if i == doors
 println(doors)
         break
 else
-doors = doors - 1
     i = i + 1
 end
 end
