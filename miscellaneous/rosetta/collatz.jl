@@ -1,14 +1,13 @@
 #run as /Applications/Julia-0.5.app/Contents/Resources/julia/bin/julia collatz.jl
 
-i = 1; doors = rand(1:100)
+print("Input a positive integer: ")
+n = parse(UInt8, readline())
 
-readline(STDIN)
-
-while i <100
-        if i == doors
-                println(doors)
-        break
+while n != 1
+        if (n % 2 == 0)
+                n = n / 2
+                println(n)
 else
-        i = i + 1
+        n = (3 * n) + 1
         end
 end
