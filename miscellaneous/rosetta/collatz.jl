@@ -9,5 +9,6 @@ while n != 1
                 println(n)
 else
         n = (3 * n) + 1
+                println(n)
         end
 end
